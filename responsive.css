@@ -1,0 +1,165 @@
+@media screen and (max-width:576px) {
+    body{
+        background:rgb(255, 255, 255);
+    }
+    .container{
+       width:90%;
+    }
+
+    .header h1{
+        font-size: 40px;
+    }
+    .header p{
+        font-size: 20px;
+    }
+    .nav{
+        width: 92%;
+    }
+    .menu li{
+        display: block;
+        text-align: center;
+        padding: 16px 0px;
+    }
+    .box{
+        width: 100%;
+        display: block;
+        height: 320px;
+    }
+    button{
+        margin-left:150px; 
+    }
+    .box img{
+        width: 400px;
+        height: 200px;
+    }
+    .box a{
+        text-align: left;
+    }
+    .box p{
+        text-align: left;
+    }
+    
+    .btn5{
+        width: 200px;
+        height: 40px;
+        color: red;
+        background-color: white;
+        border: 2px solid red;
+    }
+    input{
+        width: 70%;
+        height: 40px;
+        /* padding-left: 300px; */
+    }
+    input::placeholder{
+    padding-left: 5px; 
+    font-size: 15px;
+    }
+    .btn6{
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .footer{
+        width: 100%;
+        background-size: cover;   
+    }
+    .footer p{
+        letter-spacing: 1px;
+        word-spacing: 0px;
+    }
+}
+@media (min-width:577px) and (max-width:992px) {
+    body{
+        background:white;
+    }
+    .container{
+        width: 90%;
+    }
+    .header{
+        padding:40px 0px;
+        margin-left: 10px;
+    }
+    .nav{
+        width: 90%;
+        margin: 0px 32px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .menu li{
+        display: block;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .menu li a{
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .box{
+        width: calc(100% / 2 - 20px);
+        margin: 20px 10px;
+        float: left;
+        /* padding: 0px 15px; */
+        }
+    .box img{
+        width: 100%;
+    }
+    .btn5{
+        width: 30%;
+        height: 50px;
+        color: red;
+        background-color: white;
+        border: 2px solid red;
+        margin: 100px auto  -40px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer p{
+        letter-spacing: 3px;
+        word-spacing: 0px;
+    }
+    .footer img{
+        width: 100%;
+    }
+    .sector{
+        display: flex;
+    }
+    input{
+        width: 50%;
+        height: 55px;
+       /* display: inline-block; */
+    }
+    input::placeholder{
+        font-size: 15px;
+    }
+    .btn6{
+        width: 30%;
+        height: 54px;
+        margin-left: 0px;
+        border: none;
+    }
+}
+@media (min-width:993px) and (max-width:1440px) {
+    .menu li{
+        padding: 16px 37px ;
+    }
+    .box{
+        width: calc(100% / 3 - 2px);
+        height: 370px;
+    }
+    .box img{
+        height: 200px;
+    }
+    .btn5{
+        margin-top: 30px;
+    }
+    .nav{
+        width: auto;
+    }
+    input{
+        width: 50%;
+    }
+}
